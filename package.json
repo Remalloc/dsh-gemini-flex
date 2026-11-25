@@ -1,14 +1,33 @@
 {
-  "name": "@local/dsh-gemini-flex",
+  "name": "dsh-gemini-flex",
   "version": "1.0.0",
-  "private": true,
   "description": "Use Gemini API Flex (and Standard/Priority) service tiers on DeepSeek Harness Google routes with quick UI toggles.",
+  "author": "Remalloc",
   "license": "MIT",
+  "homepage": "https://github.com/Remalloc/dsh-gemini-flex#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/Remalloc/dsh-gemini-flex.git"
   },
+  "bugs": {
+    "url": "https://github.com/Remalloc/dsh-gemini-flex/issues"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "gemini",
+    "gemini-api",
+    "flex"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "dsh": ">=0.2.0 <0.3.0"
+  },
   "type": "module",
+  "main": "./index.js",
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",

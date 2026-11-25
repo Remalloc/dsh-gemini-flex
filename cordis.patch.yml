@@ -1,4 +1,4 @@
 - insert:
     - id: gemini-flex
-      name: '@local/dsh-gemini-flex'
+      name: dsh-gemini-flex
       config: {}

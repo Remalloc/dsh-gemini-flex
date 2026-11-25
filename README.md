@@ -1,4 +1,4 @@
-# Gemini Flex Tier (`@local/dsh-gemini-flex`)
+# Gemini Flex Tier (`dsh-gemini-flex`)
 
 DeepSeek Harness plugin that enables **Gemini API Flex inference** (`serviceTier: "flex"`, plus `standard`, `priority`, and `off`) on your existing Google / Gemini routes without duplicating provider or API key setups.
 
@@ -16,11 +16,34 @@ DeepSeek Harness plugin that enables **Gemini API Flex inference** (`serviceTier
 
 ## Installation
 
-1. Clone this repository to a local directory:
-   ```bash
-   git clone https://github.com/Remalloc/dsh-gemini-flex.git
-   ```
-2. In DeepSeek Harness, open **Settings > Plugins > Add plugin** and select the cloned local directory (or ask the Harness agent to install the local bundle path).
+### From npm (recommended)
+
+In DeepSeek Harness Web UI, open **Plugins > Add plugin** and enter:
+
+```text
+dsh-gemini-flex
+```
+
+Or via CLI:
+
+```bash
+dsh plugin --profile web add dsh-gemini-flex
+```
+
+### From GitHub
+
+In **Plugins > Add plugin**, enter `github:Remalloc/dsh-gemini-flex`, or via CLI:
+
+```bash
+dsh plugin --profile web add github:Remalloc/dsh-gemini-flex
+```
+
+### From a local clone
+
+```bash
+git clone https://github.com/Remalloc/dsh-gemini-flex.git
+dsh plugin --profile web add ./dsh-gemini-flex
+```
 
 ## Notes on Gemini Flex Tier
 

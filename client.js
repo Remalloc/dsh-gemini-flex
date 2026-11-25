@@ -1,5 +1,5 @@
 /**
- * DeepSeek Harness Client plugin for @local/dsh-gemini-flex.
+ * DeepSeek Harness Client plugin for dsh-gemini-flex.
  *
  * Contributes:
  * 1. `conversation.input.model.options` — quick Gemini service tier selector inside the composer
@@ -11,7 +11,7 @@
  */
 
 window.__ModuleLoader__.load({
-  id: '@local/dsh-gemini-flex',
+  id: 'dsh-gemini-flex',
   factory(require) {
     const React = require('react')
     const h = React.createElement
