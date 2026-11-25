@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Gemini Flex 档位",
+    "description": "为所有会话中匹配的 Google / Gemini 模型路线自动注入 Gemini API 的 serviceTier 参数（支持 Flex、Standard、Priority）与可选 X-Server-Timeout 超时头，直接复用现有 Gemini 模型与密钥，无需重复配置。可通过输入框左下角「模型选择菜单」中的「Gemini 档位」、进入「设置 > 模型」页底部的「Gemini Flex 档位」卡片、输入 /gemini-flex 命令或调用 gemini_service_tier 工具随时切换（修改全局生效）。Flex 档位费用约为标准档位的 50%，延迟较高且高峰期可能返回 429/503（服务端不会自动升档计费）；关闭插件或将档位设为「关闭」即可恢复默认 Standard 请求。"
+  }
+}

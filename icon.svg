@@ -1,0 +1,15 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M16 6.5C17.1 12.1 19.9 14.9 25.5 16C19.9 17.1 17.1 19.9 16 25.5C14.9 19.9 12.1 17.1 6.5 16C12.1 14.9 14.9 12.1 16 6.5Z" fill="url(#dsh_gf_star)" />
+  <path d="M15.5 26.8C17.8 24.4 20.6 24.4 22.8 26.5C24.8 28.4 27.1 28.4 29.5 26" stroke="url(#dsh_gf_wave)" stroke-width="2.6" stroke-linecap="round" />
+  <circle cx="27.2" cy="11.2" r="2.2" fill="#5CC8D7" />
+  <defs>
+    <linearGradient id="dsh_gf_star" x1="8" y1="7" x2="24" y2="25" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6B9BFF" />
+      <stop offset="1" stop-color="#4A54E8" />
+    </linearGradient>
+    <linearGradient id="dsh_gf_wave" x1="15.5" y1="26.5" x2="29.5" y2="26.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4CC9B0" />
+      <stop offset="1" stop-color="#359BB8" />
+    </linearGradient>
+  </defs>
+</svg>

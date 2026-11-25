@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Gemini Flex tier",
+    "description": "Injects Gemini API serviceTier (Flex, Standard, or Priority) and optional X-Server-Timeout headers on matching Google routes so you can use Flex inference (50% lower cost, higher variable latency) directly with existing Gemini models. Switch tiers anytime from the composer Model selector menu (Gemini tier), in Settings > Models (Gemini Flex tier card), via /gemini-flex, or through the gemini_service_tier tool. Flex traffic is best-effort and may return HTTP 429/503 under peak load without server-side fallback; disabling this plugin or setting tier to Off restores default Standard requests."
+  }
+}

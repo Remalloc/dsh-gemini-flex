@@ -1,0 +1,42 @@
+{
+  "name": "@local/dsh-gemini-flex",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Use Gemini API Flex (and Standard/Priority) service tiers on DeepSeek Harness Google routes with quick UI toggles.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Remalloc/dsh-gemini-flex.git"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-model-selection",
+        "@deepseek-ai/dsh-client-ui-settings-models",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-api-remotes"
+      ]
+    }
+  }
+}
